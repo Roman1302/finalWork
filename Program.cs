@@ -12,7 +12,7 @@ string SelectingValues(string[] array)
     {
         string text = array[i];
         numberСharacters = text.Length;
-        if (numberСharacters >= 3)
+        if (numberСharacters <= 3)
         {
             arrNew[j] = array[i];
             Console.Write($"{arrNew[j]} ");
